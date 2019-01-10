@@ -4,7 +4,7 @@
   "description": "Material design bootstrap ecommerce site",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --mode development --open --hot",
+    "dev": "webpack-dev-server --mode development --open --hot --host 0.0.0.0",
     "build": "webpack --mode production"
   },
   "repository": {
